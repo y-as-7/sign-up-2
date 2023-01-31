@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    /* background-color: rgb(196, 185, 235); */
+    background-color: #EFF2F1;
+}
+.con{
+    width: 80%;
+    display: flex;
+    margin: 65px auto;
+    
+    border-radius: 5px;
+    background-color: #ffff;
+}
+header{
+    position: absolute;
+    top: 15%;
+    left: 16%;
+    text-transform: capitalize;
+}
+
+header h2{
+    margin-bottom: .6rem;
+    text-transform: capitalize;
+}
+header p{
+    opacity: 70%;
+}
+.left-con{
+    width: 40%;
+}
+
+.right-con select{
+    position: absolute;
+    top: 8%;
+    right: 15%;
+    outline: none;
+    border: none;
+    opacity: 70%;
+}
+
+.right-con{
+    margin-top: 10rem;
+    margin-right: 5rem;
+    margin-left: 15rem;
+    width: 40%;
+}
+
+.right-con h2{
+    margin-bottom:1rem ;
+    text-transform: capitalize;
+}
+
+.right-con .title{
+    display: flex;
+}
+.right-con .title :first-child{
+    margin-right: 1rem;
+}
+.links{
+    margin: 2.5rem 0;
+}
+.links button{
+    cursor: pointer;
+    font-size: 20px;
+    padding: 6px 15px;
+    margin-right:10px ;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: rgb(56, 56, 56);
+}
+
+.right-con form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-right: 200px
+}
+.right-con form label{
+    text-transform: capitalize;
+    font-size: 1rem;
+    margin-bottom:.3rem ;
+    opacity: 80%;
+}
+
+.right-con form input:not(.asd){
+    width: 100%;
+    font-size: 1rem;
+    outline:none ;
+    border: none;
+    border-bottom: solid rgba(78, 71, 71, 0.406) 1px ;
+    margin-bottom: 1.5rem;
+    padding:0 10px;
+}
+
+.pass_strenght{
+    margin-bottom: 3rem;
+}
+.policy{
+    margin-bottom: 1.5rem;
+    display: flex;
+}
+.policy input{
+    width: 14px;
+    height: 20px;
+}
+
+.policy p{
+    text-transform: none;
+    margin-left: 5px;
+    font-size: .8rem;
+}
+
+.policy p span{
+    text-decoration: underline;
+    opacity: 70%;
+}
+
+form button{
+    padding: 16px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    background-color: orange;
+    border: none;
+    color: #EFF2F1;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.progress{
+    display: flex;
+    margin-top: 1rem;
+    width: 100%;
+}
+.pass_strenght label{
+    opacity: 100%;
+    color: black;
+    font-weight: bold;
+}
+
+.progress span{
+    width:25%;
+    height: 2px;
+    margin-right: 5px;
+    border-radius: .5rem;
+}
+
+
+
+@media (max-width:1455px){
+    .right-con{
+        width: 100%;
+    }
+
+    .right-con .links button{
+        margin: 5px 0;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:1177px){
+    .left-con{
+        display: none;
+        width: 90%;
+    }
+
+    .con{
+        width: 100%;
+        padding-bottom: 20px;}
+
+    .right-con select{
+    position: absolute;
+    top: 17%;
+    right: 15%;
+    outline: none;
+    border: none;
+    opacity: 70%;
+}
+header{
+    position: absolute;
+    top: 11%;
+    left: 16%;
+    text-transform: capitalize;
+}
+}
+
+.red{
+background-color: red;
+}
+.black{
+    background-color:rgba(78, 71, 71, 0.406);
+}
+.green{
+    background-color:"yellow";
+}
+
